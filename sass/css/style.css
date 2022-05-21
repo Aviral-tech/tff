@@ -12668,14 +12668,22 @@ body {
   );
   overflow-x: hidden;
 }
+
 @media only screen and (min-device-width: 766px) {
   .our-event {
     font-size: 20em;
+  }
+  .to-show {
+    display: none;
   }
 }
 @media only screen and (min-device-width: 100px) and (max-device-width: 765px) {
   .our-event {
     font-size: 10em;
+  }
+
+  .to-hide {
+    display: none;
   }
 }
 .linear-wipe {
