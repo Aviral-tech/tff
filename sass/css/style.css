@@ -12668,6 +12668,16 @@ body {
   );
   overflow-x: hidden;
 }
+@media only screen and (min-device-width: 766px) {
+  .our-event {
+    font-size: 20em;
+  }
+}
+@media only screen and (min-device-width: 100px) and (max-device-width: 765px) {
+  .our-event {
+    font-size: 10em;
+  }
+}
 .linear-wipe {
   font-family: Poppins;
   outline: none;
@@ -12684,11 +12694,13 @@ body {
   -webkit-text-fill-color: transparent;
   animation: animate 10s linear infinite;
 }
+
 @keyframes animate {
   to {
     background-position: 400%;
   }
 }
+
 .events_img1 {
   padding: 15rem;
   background-position: center;
@@ -12741,6 +12753,7 @@ body {
   font-size: 1.7rem;
   padding-top: 1rem;
   line-height: 2.4rem;
+  margin-bottom: 10%;
 }
 .events_heading-small {
   color: white;
@@ -12797,11 +12810,10 @@ body {
 }
 .events_header-heading-small {
   font-size: 2.5rem;
-  font-weight: 800;
+  font-weight: 500;
   padding: 0rem 0.5rem;
   color: white;
   font-family: Allura;
-  text-align: right;
 }
 
 .loader_wrapper {
