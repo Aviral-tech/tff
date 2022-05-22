@@ -10843,7 +10843,7 @@ body {
   line-height: 2rem;
   padding: 1rem;
   font-size: 1.5rem;
-  font-family: "Amaranth";
+  font-family: "Poppins";
   display: inline-block;
 }
 @media (max-width: 37.5em) {
@@ -11796,7 +11796,7 @@ body {
 }
 .popup8_paragraph {
   column-count: 2;
-  font-family: "Amaranth";
+  font-family: "Poppins";
   font-size: 1.7rem;
   font-weight: 400;
   letter-spacing: 0.1rem;
@@ -12817,7 +12817,7 @@ body {
 }
 .events_paragraph {
   color: white;
-  font-family: "Amaranth";
+  font-family: "Poppins";
   font-size: 1.7rem;
   padding-top: 1rem;
   line-height: 2.4rem;
@@ -12839,7 +12839,7 @@ body {
   display: inline-block;
   font-weight: 1000;
   letter-spacing: 0.3rem;
-  font-family: "Amaranth";
+  font-family: "Poppins";
   font-size: 3rem;
 }
 .events_pic {
@@ -13117,7 +13117,7 @@ body {
   display: inline-block;
   font-weight: 1100;
   font-size: 4rem;
-  font-family: "Amaranth";
+  font-family: "Poppins";
   -webkit-background-clip: text;
   color: transparent;
   background-image: linear-gradient(to right, #f12711, #f5af19);
@@ -13146,16 +13146,16 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.8rem;
-  color: #474545;
+  color: black;
   letter-spacing: 0.12rem;
   margin-bottom: 2rem;
-  font-family: "Amaranth";
+  font-family: "Poppins";
 }
 
 .paragraph {
   font-size: 1.6rem;
-  font-family: "Amaranth";
-  color: #555555;
+  font-family: "Poppins";
+  color: white;
   line-height: 2.5rem;
 }
 .paragraph:not(:last-child) {
@@ -13255,7 +13255,7 @@ body {
 .footer {
   background-color: black;
   padding: 13rem 0 2rem 0;
-  font-family: "Amaranth";
+  font-family: "Poppins";
   font-size: 1.7rem;
 }
 @media (max-width: 37.5em) {
@@ -13343,7 +13343,11 @@ body {
 
 .team_section {
   background-color: #f7f7f7;
-  background-image: url(../img/pattern1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/BGtry.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 30rem 0 10rem 0;
   margin-top: -20vh;
 }
@@ -13363,7 +13367,7 @@ body {
   color: #555555;
   text-align: center;
   line-height: 3rem;
-  font-family: "Amaranth";
+  font-family: "Poppins";
 }
 
 .team_section-meet {
@@ -13377,7 +13381,7 @@ body {
   -webkit-background-clip: text;
   color: transparent;
   background-image: linear-gradient(to right, #f12711, #f5af19);
-  font-family: "Amaranth";
+  font-family: "Poppins";
   text-transform: uppercase;
   padding-left: 1rem;
   padding-bottom: 8rem;
@@ -13485,7 +13489,7 @@ body {
 .copyright {
   border-top: 1.5px dotted grey;
   padding-top: 1rem;
-  font-family: "Amaranth";
+  font-family: "Poppins";
 }
 .copyright_text {
   text-align: center;
@@ -13517,7 +13521,7 @@ body {
 }
 
 .section_text {
-  font-family: "Amaranth";
+  font-family: "Poppins";
   text-decoration: none;
   color: #555555;
 }
@@ -13596,7 +13600,7 @@ body {
   z-index: 20;
   transform: scale(1.05);
   box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.473);
-  outline: 0.8rem solid peru;
+  outline: 0.8rem solid white;
 }
 
 .img-1 {
@@ -13765,7 +13769,7 @@ body {
   font-size: 2.5rem;
   margin-left: 4rem;
   margin-bottom: 4rem;
-  font-family: "Amaranth";
+  font-family: "Poppins";
 }
 
 .sidenav {
@@ -13826,7 +13830,11 @@ body {
 
 .section-about {
   background-color: #f7f7f7;
-  background-image: url(../img/pattern1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/BGtry.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 30rem 0 24rem 0;
   margin-top: -30vh;
 }
