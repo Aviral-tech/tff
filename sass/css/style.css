@@ -39,9 +39,12 @@ html {
   /* Full height */
   height: 100%;
   /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/BGtry.png) !important;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -81,7 +84,7 @@ p {
   font-family: Poppins-Regular;
   font-size: 14px;
   line-height: 1.7;
-  color: #666666;
+  color: white;
   margin: 0px;
 }
 
@@ -10789,7 +10792,6 @@ html {
 body {
   background-size: cover;
   backface-visibility: hidden;
-  padding: 2rem;
 }
 @media (max-width: 56.25em) {
   body {
@@ -12135,7 +12137,7 @@ body {
 .pic_18 {
   padding: 5% 5%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../img/BGtry.jpg);
+    url(../img/BGtry.png);
   background-size: cover;
   background-position: center;
   margin: -2rem;
@@ -12715,7 +12717,7 @@ body {
 .linear-wipe {
   font-family: Poppins;
   outline: none;
-  background: linear-gradient(135deg, white 0%, blue 50%, black 100%);
+  background: linear-gradient(135deg, white 0%, yellow 50%, orange 100%);
   background-size: 400%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -13150,6 +13152,7 @@ body {
   letter-spacing: 0.12rem;
   margin-bottom: 2rem;
   font-family: "Poppins";
+  text-shadow: 1.5px 1.5px 1.5px #eeff13;
 }
 
 .paragraph {
@@ -13163,16 +13166,15 @@ body {
 }
 
 .btn-link {
-  color: #7ed56f;
+  color: YELLOW;
   font-size: 1.6rem;
 }
 
 .section_pic {
   padding: 35rem 0 19rem 0;
-  background-image: url(../img/Webp.net-compress-image.jpg);
-  background-size: cover;
+
   color: #555555;
-  background-position: center;
+
   transform: skewY(-7deg);
   margin-top: -14rem;
   text-align: center;
@@ -13342,12 +13344,6 @@ body {
 }
 
 .team_section {
-  background-color: #f7f7f7;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../img/BGtry.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   padding: 30rem 0 10rem 0;
   margin-top: -20vh;
 }
@@ -13364,7 +13360,7 @@ body {
 .team_section-paragraph {
   font-size: 1.8rem;
   letter-spacing: 0.1rem;
-  color: #555555;
+  color: white;
   text-align: center;
   line-height: 3rem;
   font-family: "Poppins";
@@ -13435,6 +13431,7 @@ body {
   box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
   transition: all 0.2s;
   border-radius: 4px;
+  position: relative;
 }
 @media (max-width: 75em) {
   .square-box-2 {
@@ -13829,12 +13826,6 @@ body {
 }
 
 .section-about {
-  background-color: #f7f7f7;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../img/BGtry.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   padding: 30rem 0 24rem 0;
   margin-top: -30vh;
 }
@@ -14006,7 +13997,7 @@ body {
 .btn-link:link,
 .btn-link:visited {
   text-decoration: none;
-  color: #f10a0a;
+  color: YELLOW;
   font-size: 1rem;
   display: inline-block;
   font-size: 1.6rem;
@@ -14018,13 +14009,13 @@ body {
 .btn-link:hover {
   transform: translateY(-0.3rem);
   box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.205);
-  background-color: #7ed56f;
+  background-color: BLACK;
   color: white;
 }
 
 .btn-link:active {
   transform: translateY(-0.1rem);
-  background-color: #7ed56f;
+  background-color: black;
   color: white;
 }
 
@@ -14048,12 +14039,8 @@ body {
 }
 
 .header {
-  z-index: 0.5;
   font-family: "decade";
-  background-image: url(../img/landing_phone.jpeg);
-  height: 95vh;
-  background-position: center;
-  background-size: 100% 100%;
+  height: 100vh;
   position: relative;
   backface-visibility: hidden;
 }
@@ -14063,16 +14050,12 @@ body {
     background-size: 100% 100%;
   }
 }
-@media (min-width: 600px) {
-  .header {
-    background-image: url(../img/tff_final.jpg);
-  }
-}
 
 .bg-video {
   width: 100%;
   height: 100%;
   overflow: hidden;
+  z-index: 0;
 }
 .bg-video_content {
   object-fit: cover;
