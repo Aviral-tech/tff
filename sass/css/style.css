@@ -13388,7 +13388,7 @@ body {
 }
 
 .square-box-1 {
-  background-image: url(../img/gallery17.jpg);
+  background-image: url(../img/gallery17.png);
   background-color: #ffffffe8;
   padding: 16.5rem;
   background-size: 100% 100%;
@@ -13399,6 +13399,7 @@ body {
   box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
   transition: all 0.2s;
   border-radius: 4px;
+  position: relative;
 }
 .square-box-1:hover {
   box-shadow: 0 1.4rem 4rem rgba(139, 115, 115, 0.733);
@@ -13420,7 +13421,7 @@ body {
 }
 
 .square-box-2 {
-  background-image: url(../img/gallery16.jpg);
+  background-image: url(../img/gallery16.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -13449,7 +13450,7 @@ body {
 }
 
 .square-box-3 {
-  background-image: url(../img/gallery18.jpg);
+  background-image: url(../img/gallery18.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -13462,6 +13463,7 @@ body {
   box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
   transition: all 0.2s;
   border-radius: 4px;
+  position: relative;
 }
 @media (max-width: 75em) {
   .square-box-3 {
