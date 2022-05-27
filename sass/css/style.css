@@ -2,27 +2,7 @@
 [ FONT ]*/
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
-
-@font-face {
-  font-family: Poppins-Regular;
-  src: url("../../RecruitForm/fonts/poppins/Poppins-Regular.ttf");
-}
-
-@font-face {
-  font-family: Poppins-Medium;
-  src: url("../../RecruitForm/fonts/poppins/Poppins-Medium.ttf");
-}
-
-@font-face {
-  font-family: Poppins-Bold;
-  src: url("../../RecruitForm/fonts/poppins/Poppins-Bold.ttf");
-}
-
-@font-face {
-  font-family: Poppins-SemiBold;
-  src: url("../../RecruitForm/fonts/poppins/Poppins-SemiBold.ttf");
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;300;400;500&display=swap');
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
 * {
@@ -12715,7 +12695,7 @@ body {
   }
 }
 .linear-wipe {
-  font-family: Poppins-Medium;
+  font-family: Poppins;
   outline: none;
   background: linear-gradient(135deg, white 0%, yellow 50%, orange 100%);
   background-size: 400%;
