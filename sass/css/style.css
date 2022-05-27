@@ -12695,7 +12695,7 @@ body {
   }
 }
 .linear-wipe {
-  font-family: Poppins;
+  font-family: Bebas Neue;
   outline: none;
   background: linear-gradient(135deg, white 0%, yellow 50%, orange 100%);
   background-size: 400%;
@@ -13128,7 +13128,7 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.8rem;
-  color: black;
+  color: #ffdaaf;
   letter-spacing: 0.12rem;
   margin-bottom: 2rem;
   font-family: "Poppins";
@@ -13168,7 +13168,7 @@ body {
 }
 .sponsor-img {
   width: 240px;
-  height: 100px;
+  height: 120px;
   border-radius: 10px;
   position: relative;
   margin-top: 10%;
