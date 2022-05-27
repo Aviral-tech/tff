@@ -12715,7 +12715,7 @@ body {
   }
 }
 .linear-wipe {
-  font-family: Poppins;
+  font-family: Poppins-Medium;
   outline: none;
   background: linear-gradient(135deg, white 0%, yellow 50%, orange 100%);
   background-size: 400%;
