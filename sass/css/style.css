@@ -12648,12 +12648,11 @@ body {
 .events {
   margin: -4rem;
 
-  background: rgb(145, 7, 7);
-  background: linear-gradient(
-    0deg,
-    rgba(145, 7, 7, 1) 0%,
-    rgba(0, 0, 0, 1) 100%
-  );
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/BGtry.png) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   overflow-x: hidden;
 }
 
@@ -13401,11 +13400,11 @@ body {
 
 .square-box-1 {
   background-image: url(../img/gallery17.png);
-  background-color: #ffffffe8;
-  padding: 16.5rem;
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+
+  padding: 16.5rem;
   text-align: center;
   font-size: 1.5rem;
   box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.733);
@@ -13434,10 +13433,10 @@ body {
 
 .square-box-2 {
   background-image: url(../img/gallery16.png);
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #ffffffe8;
+
   padding: 16.5rem;
   text-align: center;
   font-size: 1.5rem;
@@ -14099,4 +14098,5 @@ body {
 /************ Gallery**********/
 .gallery-header {
   font-size: 6em;
+  font-family: Bebas Neue !important;
 }
