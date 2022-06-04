@@ -13192,7 +13192,8 @@ body {
 @media (max-width: 56.25em) {
   .section_pic {
     background-size: 100% 100%;
-    padding: 20rem 0;
+    padding: 5rem 0rem;
+    margin: 3rem;
   }
 }
 
@@ -13856,17 +13857,18 @@ body {
 }
 @media (max-width: 75em) {
   .section-about {
-    padding: 50rem 0 80rem 0;
+    padding: 5rem 0 5rem 0;
   }
 }
 @media (max-width: 56.25em) {
   .section-about {
-    padding: 45rem 0 60rem 0;
+    padding: 5rem 0 5rem 0;
   }
 }
 @media (max-width: 37.5em) {
   .section-about {
-    padding: 38rem 0 47.5rem 0;
+    padding: 5rem 1rem 5rem 1rem;
+    margin: 3rem;
   }
 }
 
@@ -14094,7 +14096,20 @@ body {
   top: 2rem;
   left: 2rem;
 }
-
+@media (min-width: 550px) {
+  .header_logo {
+    z-index: 1;
+    width: 40%;
+    margin-top: 12%;
+  }
+}
+@media (max-width: 550px) {
+  .header_logo {
+    z-index: 1;
+    width: 80%;
+    margin-top: 60%;
+  }
+}
 /************ Gallery**********/
 .gallery-header {
   font-size: 6em;
