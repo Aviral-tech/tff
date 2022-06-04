@@ -11122,7 +11122,8 @@ body {
   }
 }
 .popup_paragraph {
-  column-count: 2;
+  color: black !important;
+
   font-size: 1.7rem;
   font-weight: 600;
   column-rule: 0.5px solid darkgrey;
@@ -11524,12 +11525,10 @@ body {
   }
 }
 .popup4_paragraph {
-  column-count: 2;
+  color: black !important;
   font-size: 1.7rem;
-  font-weight: 400;
-  letter-spacing: 0.1rem;
-  column-rule: 0.5px solid darkgrey;
-  column-gap: 4rem;
+  font-weight: 600;
+
   hyphens: auto;
 }
 @media (max-width: 56.25em) {
@@ -13586,6 +13585,7 @@ body {
 
 .u-centre {
   text-align: center;
+  /* font-size: 7rem; */
 }
 
 .composition {
