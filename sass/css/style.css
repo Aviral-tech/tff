@@ -10891,7 +10891,7 @@ body {
 @media (max-width: 75em) {
   .col-1-of-4:not(:last-child) {
     margin-right: 0;
-    margin-bottom: 6rem;
+    margin-bottom: 0.1rem;
   }
 }
 
@@ -10899,16 +10899,30 @@ body {
   width: 34rem;
   float: left;
 }
+.col-1-of-4-memory {
+  width: 4rem;
+  margin: 2%;
+  float: left;
+}
 @media (max-width: 75em) {
   .col-1-of-3 {
     width: 100%;
+  }
+  .col-1-of-4-memory {
+    width: 100%;
+    margin-right: 2rem;
   }
 }
 .col-1-of-3:not(:last-child) {
   margin-right: 6rem;
 }
+
 @media (max-width: 75em) {
   .col-1-of-3:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 6rem;
+  }
+  .col-1-of-4-memory:not(:last-child) {
     margin-right: 0;
     margin-bottom: 6rem;
   }
@@ -13150,7 +13164,7 @@ body {
 
 .section_pic {
   margin: 4% 2%;
-  padding: 2% 0%;
+  padding: 2% 4%;
   border-radius: 25px;
   position: relative;
   text-align: center;
@@ -13192,7 +13206,7 @@ body {
 @media (max-width: 56.25em) {
   .section_pic {
     background-size: 100% 100%;
-    padding: 5rem 0rem;
+    padding: 5rem 4rem;
     margin: 3rem;
   }
 }
@@ -14085,7 +14099,10 @@ body {
   z-index: 0;
 }
 .bg-video_content {
-  object-fit: cover;
+  background-image: url(../img/1.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 100%;
   width: 100%;
 }
